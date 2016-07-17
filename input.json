@@ -1,22 +1,24 @@
 {
-  "data": [
-    {
-     "first_name": "steve",
-     "last_name": "smith",
-     "month": "9" ,
-     "year": "1500",
-     "color": "magenta",
-     "movie": "Taken"
-    },
-    {
-     "first_name": "steve",
-     "last_name": "smith",
-     "month": "9" ,
-     "year": "1500",
-     "color": "magenta",
-     "movie": "Taken"
-    }
-    ]
-
-
+  {
+    "firstName": "John",
+    "lastName": "doe",
+    "birth year": "1991",
+    "favorite color": "red",
+    "fav movie": "Frozen"
+  },
+  {
+   "firstName": "Tim",
+    "lastName": "Smith",
+    "birth year": "1983",
+    "favorite color": "blue",
+    "fav movie": "taken"
+  },
+  {
+   "firstName": "mike",
+    "lastName": "jones",
+    "birth year": "1973",
+    "favorite color": "green",
+    "fav movie": "miracle"
+  }
+}
 
