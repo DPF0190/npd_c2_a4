@@ -8,20 +8,30 @@ FILENAME_JSON = 'input.json'
 FILENAME_CSV = 'input.csv'
 FILENAME_YAML = 'input.yaml'
 
-with open(FILENAME_JSON, 'r') as json_file:
-    json_data = json.load(json_file)
-pprint(json_data)
+def json_loader(filepath):
+    with open(FILENAME_JSON, 'r') as json_file:
+        json_data = json.load(json_file)
 
-with open(FILENAME_YAML, 'r') as yaml_file:
+def yaml_loader(filepath):
+    with open(FILENAME_YAML, 'r') as yaml_file:
+        yaml_data = yaml.load(yaml_file)
+
+def csv_loader(filepath):
+    with open(FILENAME_CSV, 'r') as csv_file:
+        reader = csv.reader(FILENAME_CSV)
+        names = next(reader)
+        lines = [l for l in reader]
+
+if __name__ == "__main__":
+    yaml_file = "input.yaml"
     yaml_data = yaml.load(yaml_file)
-pprint(yaml_file)
+    return (yaml_data)
 
-with open(FILENAME_CSV, 'r') as csv_file:
-    reader = csv.reader(FILENAME_CSV)
-    names = next(reader)
-    lines = [l for l in reader]
-print(names)
-print(lines)
+
+
+
+
+
 
 
 
