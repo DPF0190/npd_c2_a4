@@ -1,6 +1,7 @@
-['tim', 'smith', '02', 1983', 'blue', 'taken']
-['john', 'doe', '01', '1991', 'red', 'frozen']
-['mike', 'jones', '03', ,'1973', 'green', 'miracle']
+first_name,last_name,month,year,color,movie
+tim,smith,02,1983,blue,taken
+john,doe,01,1991,red,frozen
+mike,jones,03,1973,green,miracle
 
 
 

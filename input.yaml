@@ -1,27 +1,15 @@
-- Person1:
-  "first_name": "john"
-  "last_name": "doe"
-  "monthofbirth": "01"
-  "birthyear": "1991"
-  "Fav_color": "red"
-  "fav_movie": "Frozen"
+data:
+  - first_name: john
+    last_name: doe
+    month: 01
+    year: 1991
+    color: red
+    movie: Frozen
 
-- Person2:
-  "first_name": "Tim"
-  "last_name": "Smith"
-  "monthofbirth": "02"
-  "birthyear": "1983"
-  "fav_color": "blue"
-  "fav_movie": "taken"
-
-- Person3:
-  "first_name": "mike"
-  "last_name": "jones"
-  "monthofbirth": "03"
-  "birthyear": "1973"
-  "fav_color": "green"
-  "fav_movie": "miracle"
-
-
-
+  - first_name: tim
+    last_name: smith
+    month: 2
+    year: 1983
+    color: blue
+    movie: taken
 
